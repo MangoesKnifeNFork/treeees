@@ -1,7 +1,9 @@
 
-
+.imgcenter {
+    text-align: center;
+}
 
 img {
     width: 50%;
-    text-align: center;
+    
 }
