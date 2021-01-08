@@ -5,6 +5,8 @@ div {
 
 img {
     width: 20%;
+    display: block;
+    text-align: center;
 }
 
 audio { 
