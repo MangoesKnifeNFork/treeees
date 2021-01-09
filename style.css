@@ -14,3 +14,14 @@ body{
   background:#000;
 }
 
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  background-color: #17182f;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
