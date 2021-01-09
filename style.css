@@ -1,5 +1,5 @@
 
-div {
+#tree {
     text-align: center;
 }
 
@@ -9,10 +9,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
-/*body{
-  background:#000;
-}*/
 
 /* ---- reset ---- */
 
