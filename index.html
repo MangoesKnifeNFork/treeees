@@ -29,7 +29,9 @@ function musicPlay() {
 <script>
 function chopTree() {
   document.getElementById('player').pause();
-  document.getElementById("treeimg").innerHTML = '<img src="treedown.png" align="center" />';
+  var image =  document.getElementById("treeimg");
+  image.src = "treedown.png";
+  
 }
 </script>
 
