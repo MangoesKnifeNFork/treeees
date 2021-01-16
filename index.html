@@ -12,7 +12,7 @@
     
   <!-- particles.js container --> 
   <div id="particles-js"></div>
-  <div id="tree" style="text-align:center;"><img id="treeimg" src="treecrop2.png" align="center"></div>
+  <div id="tree" style="text-align:center;"><img id="treeimg" src="treecrop2.png" align="center" onclick = "chopTree()"></div>
   
 </body>
 </html>
@@ -23,10 +23,11 @@ document.addEventListener('click', musicPlay);
 function musicPlay() {
     document.getElementById('player').play();
     document.removeEventListener('click', musicPlay);
+    document.addEventListener('click', chopTree);
 }
 </script>
 <script>
-document.getElementById("treeimg").onclick = function() {
+function chopTree() {
   document.getElementById('player').pause();
 }
 </script>
